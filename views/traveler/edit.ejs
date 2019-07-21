@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Travels</title>
+	<link rel='stylesheet' type='text/css' href='/css/main.css' >
+</head>
+<body>
+<h2>Already been here? Wish to change your destination or length of stay?</h2>
+<h3>No problem, change away!</h3>
+
+        <form method='POST' action="/travelers/<%=traveler._id%>?_method=PUT">
+            Place you want to go:
+            <input type="text" name="locationName" value="<%=traveler.locationName%>"/><br/>
+            Length of stay:
+            <input type="text" name="forHowLong" value="<%=traveler.forHowLong%>"/><br/>
+
+            <input type="submit" name="" value="Submit Changes"/>
+        </form>
+</body>
+</html>

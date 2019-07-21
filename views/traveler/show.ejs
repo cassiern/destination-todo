@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Destination</title>
+	<link rel='stylesheet' type='text/css' href='/css/main.css' >
+	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body class="show">
+
+	Welcome to <%=traveler.locationName%>!<br>
+	I've heard staying here <br><%=traveler.forHowLong%>
+	days is the perfect amount.<br> Enjoy your vacation!
+<form action="/travelers/<%=traveler._id%>?_method=DELETE" method="POST">
+     <input type="submit" value="Delete"/>
+</form>
+<form action="/travelers">
+<input type="submit" value="Home"/>
+</form>
+
+
+
+</body>
+</html>

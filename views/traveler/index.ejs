@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>World Travel Planner</title>
+<link rel='stylesheet' type='text/css' href='/css/main.css' >
+<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Welcome Explorer!</h1>
+<h4>"Oh the places you'll go..." - Dr.Seuss</h4>
+
+
+<ul>
+    <%for(let i = 0; i < travelers.length; i++){%>
+        <li>
+            Where would you like to visit? <a href="/travelers/<%=travelers[i]._id%>"><%=travelers[i].locationName%></a><br>
+            for <%=travelers[i].forHowLong%> days?<br><br>
+            </li>
+        </li>
+<form action="/travelers/<%=travelers[i]._id%>?_method=DELETE" method="POST">
+     <input type="submit" value="DELETE"/>
+</form>
+<form action="/travelers/<%=travelers[i]._id%>/edit?_method=EDIT">
+<input type="submit" value="Edit">
+</form>
+    <%}%>        	
+</ul>
+
+
+
+<nav>
+    <a href="/travelers/new"><button>Create a New Destination</button></a>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

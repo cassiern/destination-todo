@@ -1,0 +1,78 @@
+body {
+	background-image:url("https://i.pinimg.com/originals/73/98/07/7398075daa118d2f5a4f2e11e08c4646.jpg");	color: black;
+	background-repeat: no-repeat;
+	font-family: 'Acme', sans-serif;;
+	font-size: 20px;
+	text-align: center;
+	background-size: 1700px 900px;
+}
+.show {
+  	color: white;
+  	text-shadow: 1px 1px 2px yellow, 0 0 30px yellow, 0 0 5px darkblue;
+	font-style: 30px;
+	font-size: 30px; 
+	background-image: url("https://ae01.alicdn.com/kf/HTB1QMw6n0fJ8KJjy0Feq6xKEXXa7/Hawaii-Seaside-Sunshine-Scenery-Blue-Water-Sky-Photography-Backdrops-Wood-Decoration-Photo-Studio-Background-Props.jpg_640x640.jpg");
+	line-height: 50px;
+	padding-top: 200px;
+	font-family: 'Courgette', cursive;
+}
+h1 {
+	font-family: 'Bitter', serif;
+}
+h4 {
+	color: red;
+	font-size: 22px;
+}
+ul.a {
+	color: #ed9f40;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+input {
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+button {
+	border-radius: 12px;
+	margin: 4px;
+	background-color: black;
+	color: white;
+}
+input: hover {
+	color: #a1b8bf;
+	border: 1.5px solid black;
+}
+.create {
+	background-color: black;
+}
+
+a:link {
+	text-decoration: underline;
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	padding: 1px 2px;
+	border-radius: 12px;
+}
+a:visited {
+	text-decoration: underline;
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	padding: 1px 2px;
+	border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
