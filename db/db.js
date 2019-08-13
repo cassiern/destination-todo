@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const Travel = require('../models/traveler')
 
 const connectionString = 'mongodb://localhost/travel';
 const db = mongoose.connection;
